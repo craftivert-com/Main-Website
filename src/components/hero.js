@@ -7,16 +7,16 @@ import pfp from "@/assets/pfp.jpg"
 import Image from "next/image"
 import downarrow from "@/assets/downarrow.png"
 import Link from "next/link";
-import { forex, HealMillet, parthkabra, shirodeclasses, shubhamsteelhome } from "@/constants/assets";
+import { forex, HealMillet, shirodeclasses, shubhamsteelhome } from "@/constants/assets";
 
 export default function Hero(){
 
     const pfpitems = [
-        {id:1 , name: "parth kabra", image: parthkabra},
-        {id:2 , name: "shirode classes", image: shirodeclasses},
-        {id:3 , name: "forex trader", image: forex},
-        {id:4 , name: "heal millet", image: HealMillet},
-        {id:5 , name: "shubham steel home", image: shubhamsteelhome},
+        
+        {id:1 , name: "shirode classes", image: shirodeclasses},
+        {id:2 , name: "forex trader", image: forex},
+        {id:3 , name: "heal millet", image: HealMillet},
+        {id:4 , name: "shubham steel home", image: shubhamsteelhome},
     ]
 
     return (    

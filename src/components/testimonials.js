@@ -1,6 +1,6 @@
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 import pfp from "@/assets/pfp.jpg"
-import { forex, HealMillet, parthkabra, shirodeclasses, shubhamsteelhome, userprofile } from "@/constants/assets";
+import { forex, HealMillet, shirodeclasses, shubhamsteelhome, userprofile } from "@/constants/assets";
 
 export default function Testimonials() {
   const testimonials = [
@@ -39,12 +39,7 @@ export default function Testimonials() {
       designation: "Founder of Forex Trader",
       src: forex
     },
-    {
-      quote: "Craftivert designed the perfect logo for me—clean, professional, and exactly what I envisioned!",
-      name: "Parth Kabra",
-      designation: "Freelance Web Developer",
-      src: parthkabra
-    },
+    
   ];
   
   

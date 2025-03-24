@@ -31,7 +31,7 @@ export { default as HealMillet        } from "@/assets/brands/healmillet.jpg"
 export { default as shirodeclasses    } from "@/assets/brands/shirodeclasses.png"
 export { default as shubhamsteelhome  } from "@/assets/brands/shubhamsteelhome.jpg"
 export { default as forex             } from "@/assets/brands/forex.jpeg" 
-export { default as parthkabra        } from "@/assets/brands/parthkabra.png"
+
 
 //journey
 // ----> 2023

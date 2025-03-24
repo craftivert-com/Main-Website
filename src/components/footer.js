@@ -111,12 +111,14 @@ export default function Footer() {
             </address>
           </div>
         </div>
+        © {new Date().getFullYear()} Craftivert. All rights reserved.
       </div>
 
       {/* Copyright Line */}
       <div className="bg-[#4621ff] py-2">
         <div className="max-w-6xl mx-auto px-4 text-center text-white text-sm">
-          © {new Date().getFullYear()} Craftivert. All rights reserved.
+          Made by <a href="https://aniketdmore.netlify.app/">Aniket More</a> 
+          
         </div>
       </div>
     </footer>
